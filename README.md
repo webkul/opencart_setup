@@ -35,6 +35,6 @@ By using this console app you can create Opencart setup for the 2.x.x.x version.
     - Database Prefix           (e.g. oc_)
     - Opencart Admin Username   (e.g. demo)
     - Opencart Admin Password   (e.g. demo)
-    - Opencart Admin Email-Id   (e.g. johndoe@gmail.com)
+    - Opencart Admin Email-Id   (e.g. johndoe@example.com)
     - Store URL for config file (e.g. http://localhost/Opencart/2_0/ , https://xyz.com/opencart/)
 - Step6: After providing all the correct detail, you will get success message with admin and catalog url.
