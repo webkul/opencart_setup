@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+// include autoloader.php
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use Symfony\Component\Console\Application;
+use OcCommands\SetUpOpencart;
+
+// create the object of Application Class by which we will register the console command
+$app = new Application();
+
+// using add() method we can add the console commands (object command)
+$app->add(new SetUpOpencart());
+
+//run() function will execute the current application
+$app->run();
+
+?>

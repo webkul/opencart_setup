@@ -1,0 +1,13 @@
+{
+    "name": "OpencartSetUp",
+    "description": "Create opencart setup",
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/console": "3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "OcCommands\\": "project/Generation/Console"
+        }
+    }
+}
